@@ -27,3 +27,8 @@ void main()
     int maxDigit = GetMaxDigitFromNumber(randomNumber);
     Console.WriteLine($"Для числа {randomNumber} большей цифрой является {maxDigit}");
 }
+
+for (int i = 0; i < 30; i++)
+{
+    main();
+}
